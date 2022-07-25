@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Orientation to web development</title> 
+</head>
+<body>
+  <h1 id="title">Orientation Form</h1>
+    <p id="description">Complete the form to find out what languages to study according to your tastes</p>
+  <fieldset>
+  <form id="survey-form">
+      <label id="name-label"> <b>Name</b> </label><input id="name" type="text" placeholder="Name" required/>
+        <label id="lastname-label"> <b>Lastname</b> </label><input id="lastname" type="text" placeholder="Lastname" required/> 
+          <label id="email-label"> <b>Email</b> </label><input id="email" type="email" placeholder="@your-email.com" required/> 
+            <label id="number-label"> <b>Age</b> </label><input id="number" type="number" placeholder="Age" min="17" max="80" required/> 
+  <fieldset id="options">
+              <label> What do you call more the attention of a website?
+          <select id="dropdown">
+                <option>Website aesthetics</option>
+                  <option>Program Logic</option>
+                    <option>Graphic Desing</option>
+                      <option>Data Analitics</option>
+                    </select>
+                      </fieldset>
+  <fieldset id="options">
+    <h2>How long use the pc per day?</h2>
+      <input class="radio" name="hours-day" value="1" type="radio" required/> 2 to 4 hours 
+        <label><input class="radio" name="hours-day" value="2" type="radio" required/> 4 to 6 hours
+          <label><input class="radio" name="hours-day" value="3" type="radio" required/> 6 hours or more
+  </fieldset>
+  <fieldset>
+    <h2>Which area of ​​programming do you like the most?</h2>
+    <label><input id="checkbox" type="checkbox" value="1" /> Websites
+      <label><input id="checkbox" type="checkbox" value="2"/> Web Design
+        <label><input id="checkbox" type="checkbox" value="3"/> Videogames
+          <label><input id="checkbox" type="checkbox" value="4"/> Arquitecture Web
+            <label><input id="checkbox" type="checkbox" value="5"/> Bussines Programs
+            <label><input id="checkbox" type="checkbox" value="6"/> Apps Mobiles
+            <label><input id="checkbox" type="checkbox" value="7"/> Data Scienlist
+            <label><input id="checkbox" type="checkbox" value="8"/> Robotic Programming
+  </fieldset>
+  <fieldset>
+            
+  <label id="Coments"> Coments Additional
+    <textarea nme="bio" rows="5" cols="20" placeholder="I would like to study programming because..."></textarea>
+      </fieldset>
+      <fieldset>        
+        <input id="submit" type="submit" name="submit">
+          </fieldset> 
+         
+  </form>
+
+</body>
+
+</html>

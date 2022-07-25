@@ -1,0 +1,167 @@
+body {
+
+	color: black;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,159,245,1) 51%, rgba(0,212,255,1) 100%);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 500;
+
+}
+
+#name-label {
+	color: white;
+	font-weight: 800;
+}
+
+#lastname-label {
+	color: white;
+	font-weight: 800;
+}
+
+#email-label {
+	color: white;
+	font-weight: 800;
+}
+
+#number-label {
+	color: white;
+	font-weight: 800;
+}
+
+
+#survey-form {
+	width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 30px;
+	border: none;
+	border-radius: 10px;
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	background-color: rgba(243, 243, 243, 0.2);
+	
+}
+
+#name, #email, #lastname, #age {
+	display: block;
+	margin-right: 0px;
+	padding: 3px;
+	width: 100%;
+	height: 28px;
+	background-color: rgba(53, 53, 100, 0.877);
+	color: white;
+}
+
+
+fieldset {
+	border: none;
+	padding: 1rem 0;
+
+  }
+
+label {
+	display: block;
+	margin: 0.5rem 0;
+	width: 100%;
+
+}
+
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+label {
+  display: block;
+	margin: 0.5rem 0;
+}
+
+h1 {
+	color: rgb(7,12,50);
+	box-sizing: solid;
+	border-color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+h2 {
+	margin-top: 0px;
+	color: black;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+}
+
+#title {
+	padding-top: 25px;
+}
+
+#options {
+	padding: 20px 0px;
+	margin:0%;
+	color: black;
+}
+
+.radio {
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}
+
+textarea {
+	background-color: rgba(53, 53, 100, 0.877);
+	margin: none;
+	display: block;
+	color: white;
+	font-size:15px;
+	margin-top: 15px;
+	margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+	padding: 5px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+
+input {
+	background-color: rgba(53, 53, 100, 0.877);
+	color: white;
+	border: 1px solid;
+	border-radius: 5px white;
+
+}
+
+#dropdown {
+	background-color: rgba(53, 53, 100, 0.877);
+	color: white;
+	border: 1px solid;
+	border-radius: 5px white;
+
+
+}
+
+#submit {
+	font-size: 15px;
+	padding: 0%;
+	width: 150px;
+	height: 35px;
+	border: 1px solid;
+	border-radius: 5px;
+
+}
+
+#Coments {
+	color: rgb(7,12,50);
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#checkbox {
+		margin: 0 0.5em 0 0;
+
+}
