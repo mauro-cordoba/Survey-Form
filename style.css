@@ -1,33 +1,19 @@
+:root {
+	--color-gradient: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,159,245,1) 51%, rgba(0,212,255,1) 100%);
+	--color-background: rgb(2,0,36);
+
+}
+
+
 body {
 
 	color: black;
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(159,159,245,1) 51%, rgba(0,212,255,1) 100%);
+	background: var(--color-background);
+	background: var(--color-gradient);
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: 500;
 
 }
-
-#name-label {
-	color: white;
-	font-weight: 800;
-}
-
-#lastname-label {
-	color: white;
-	font-weight: 800;
-}
-
-#email-label {
-	color: white;
-	font-weight: 800;
-}
-
-#number-label {
-	color: white;
-	font-weight: 800;
-}
-
 
 #survey-form {
 	width: 60vw;
@@ -43,16 +29,27 @@ body {
 	
 }
 
+
+
 #name, #email, #lastname, #age {
 	display: block;
 	margin-right: 0px;
 	padding: 3px;
-	width: 100%;
+	width: 99%;
 	height: 28px;
 	background-color: rgba(53, 53, 100, 0.877);
 	color: white;
 }
 
+#number {
+	display: block;
+	margin-right: 0px;
+	padding: 3px;
+	width: 20%;
+	height: 28px;
+	background-color: rgba(53, 53, 100, 0.877);
+	color: white;
+}
 
 fieldset {
 	border: none;
@@ -67,22 +64,22 @@ label {
 
 }
 
+#name-label, #lastname-label, #email-label, #number-label {
+	color: white;
+
+}
+
 select {
   margin: 10px 0 0 0;
 	width: 100%;
   min-height: 2em;
 }
-label {
-  display: block;
-	margin: 0.5rem 0;
-}
 
 h1 {
+	font-family: 'Caveat', cursive;
 	color: rgb(7,12,50);
-	box-sizing: solid;
-	border-color: white;
 	text-align: center;
-	font-size: 30px;
+	font-size: 55px;
 }
 
 h2 {
@@ -132,7 +129,7 @@ input {
 	background-color: rgba(53, 53, 100, 0.877);
 	color: white;
 	border: 1px solid;
-	border-radius: 5px white;
+	border-radius: 5px;
 
 }
 
@@ -163,5 +160,32 @@ input {
 
 #checkbox {
 		margin: 0 0.5em 0 0;
+
+}
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 3em;
+		transition: all 700ms;
+	}
+
+	#description {
+		font-size: 1.1em;
+		margin-bottom: 0;
+		transition: all 700ms;
+	}
+
+	fieldset {
+		font-size: 0.95em;
+		transition: all 700ms;
+	}
+
+	#survey-form {
+		padding: 1em 1.2em;
+	}
+
+	textarea {
+		width: 95%;
+	}
 
 }
